@@ -1,0 +1,34 @@
+{
+  "name": "git-in-action",
+  "version": "0.0.1",
+  "description": "Git 工程化最佳实践",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seven-innovation-base/Git-IN-ACTION.git"
+  },
+  "keywords": [
+    "Git"
+  ],
+  "author": "seven-innovation-base",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seven-innovation-base/Git-IN-ACTION/issues"
+  },
+  "homepage": "https://github.com/seven-innovation-base/Git-IN-ACTION#readme",
+  "dependencies": {
+    "commitizen": "^4.0.3",
+    "core-js": "^3.6.4"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
