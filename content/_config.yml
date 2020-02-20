@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Git-IN-ACTION
+subtitle: 'Git 工程化 & 规范化最佳实践'
+description: 'Git 工程化 & 规范化最佳实践'
 keywords:
-author: John Doe
-language: en
+author: Seven innovation base
+language: zh-CN
 timezone: ''
 
 # URL
@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-fluid-1.6.4
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
