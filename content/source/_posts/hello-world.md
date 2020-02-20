@@ -2,7 +2,7 @@
 title: Hello World
 tags: Git
 categories: Git
-index_img: http://img0.imgtn.bdimg.com/it/u=703279323,3064109499&fm=26&gp=0.jpg
+index_img: https://img.vim-cn.com/3f/8524bd8577d69c93b0c878f0dcb8a94ee46072.jpg
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

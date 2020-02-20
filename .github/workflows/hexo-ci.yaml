@@ -1,5 +1,5 @@
 # workflow name
-name: Hexo Blog CI
+name: Hexo Site CI
 
 # master branch on push, auto run
 on:
@@ -28,7 +28,6 @@ jobs:
         cd content
         npm install hexo-cli -g
         npm install
-        npm install hexo-deployer-git
 
     - name: Setup Deploy Private Key
       env:
