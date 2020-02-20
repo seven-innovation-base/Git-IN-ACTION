@@ -6,14 +6,14 @@
 title: Git-IN-ACTION
 subtitle: 'Git 工程化 & 规范化最佳实践'
 description: 'Git 工程化 & 规范化最佳实践'
-keywords:
+keywords: Git
 author: Seven innovation base
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://seven-innovation-base.github.io/Git-IN-ACTION/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,4 +98,6 @@ theme: hexo-theme-fluid-1.6.4
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  - type: git
+    repo: git@github.com:seven-innovation-base/Git-IN-ACTION-docs.git
+    branch: master
